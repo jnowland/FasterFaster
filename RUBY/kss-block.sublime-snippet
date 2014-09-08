@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[<% styleguide_block '${1:Block Name}' do %>
+<div class="${1:Class} ${2:\$modifier_class}">
+    $3
+</div>
+<% end %>
+
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>block</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.ruby</scope>
+</snippet>

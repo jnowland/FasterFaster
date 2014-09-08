@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+
+<img src="http://lorempixel.com/${1:width}/${2:height}/${3:abstract / animals / business / cats / city / food / nightlife / fashion / people / nature / sports / technics / transport}/${4:Enter a Number 1 / 10}/" width="${1:}" height="${2:}" />
+ 
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lorempic</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
