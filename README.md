@@ -18,4 +18,8 @@ Just a bunch of sublime snippets.
 
 ## Craft (twig)
 
+## Expression Engine
+
+* `ceimg` - creates an assest pair tag around a ce image manipulation pair tag
+
 ## JS
