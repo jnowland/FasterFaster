@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+{${1:cf_channel_fieldName} var_prefix="${2:var_prefix}"}
+    {exp:ce_img:pair src="{${2:var_prefix}:url}" filename_suffix=".{${2:var_prefix}:date_modified}" {gv_ce_img_conf:${3:channel}:${4:manipulation}}}
+        <img itemprop="${5:image/thumbnailUrl}"
+             src="{made}"
+             width="{width}"
+             height="{height}"
+             alt="{if ${2:var_prefix}:alt_text}
+                      {${2:var_prefix}:alt_text}
+                  {if:elseif ${2:var_prefix}:title}
+                      {${2:var_prefix}:title}
+                  {if:else}
+                      {title} ${6:Image/Thumbnail}
+                  {/if}"
+        />
+    {/exp:ce_img:pair}
+{/${1:cf_channel_fieldName}}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ceimg</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
+
+
